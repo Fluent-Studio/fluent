@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fluent"
+version = "0.1.0"
+description = ""
+authors = ["LiaoKong <568250549@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.6.0"
+nodegraphqt = "^0.6.35"
+
+[tool.poetry.dev-dependencies]
+PySide2 = {version = "^5.15.2", python = ">=3.6.0,<3.11"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
